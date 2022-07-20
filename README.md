@@ -13,8 +13,7 @@ Installing the toolbox and opening the GUI
 [![View MarineEpi on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://es.mathworks.com/matlabcentral/fileexchange/87999-marineepi)
 
 
-The user needs to find in Matlab Add-ons the MarineEpi toolbox and add it into Matlab and open the folder. The folder should have the following files: MarineEpi.m, MarineEpi.fig and Readme.mlx. 
-Once Matlab is working in this folder the MarineEpi user interface will be opened by typing MarineEpi in the command window. Alternatively, the can open the GUI from the Editor window. For this, first the user will select the file MarineEpi.m file located in the working folder by clicking twice on the file. Once this file is selected in the Editor window the user wil open the GUI by clicking on the RUN button.
+The user needs to find in Matlab Add-ons the MarineEpi toolbox and add it into Matlab and open the folder. The folder should have the following files: MarineEpi.m, MarineEpi.fig. Once Matlab is working in this folder the MarineEpi user interface will be opened by typing MarineEpi in the command window. Alternatively, the user can open the GUI from the Editor window. For this, first the user will select the file MarineEpi.m file located in the working folder by clicking twice on the file. Once this file is selected in the Editor window the user wil open the GUI by clicking on the RUN button.
 
 Features
 
@@ -30,9 +29,9 @@ IP=Infective Particles
 
 Model parameters:
 
-Iinfect=infection rate by contact with Infected animals (infected produced/susceptible . day)
-Dinfect=infection rate by contact with Dead Infected animals (infected produced/Dead animal . day)
-IPinfect=infection rate by contact with Infective Particles animals (infected produced/Particles . day)
+Iinfect=infection rate by contact with Infected animals (infected produced/Infected animal * day)
+Dinfect=infection rate by contact with Dead Infected animals (infected produced/Dead animal * day)
+IPinfect=infection rate by contact with Infective Particles animals (infected produced/Particles*day)
 Imort=mortality rate of infected (1/day)
 Bmort=background mortality rate (1/day)
 DeadDecay=Removal reate of dead animals (scavenging,decomposition...) (1/day)
