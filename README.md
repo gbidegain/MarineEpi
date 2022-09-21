@@ -10,10 +10,13 @@ This toolbox provides a graphical user interface (GUI) for modelling different m
 
 Installing the toolbox and opening the GUI
 
+The user needs to find in Matlab Add-ons the MarineEpi toolbox and add it to Matlab and open the created folder. The folder should have the following files: MarineEpi.m, MarineEpi.fig. 
+
+Alternatively, the user can also download the toolbox from this link:
+
 [![View MarineEpi on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://es.mathworks.com/matlabcentral/fileexchange/87999-marineepi)
 
-
-The user needs to find in Matlab Add-ons the MarineEpi toolbox and add it to Matlab and open the created folder. The folder should have the following files: MarineEpi.m, MarineEpi.fig. The user can also download the toolbox from the link above. Once Matlab is working in this folder the MarineEpi user interface will be opened by typing MarineEpi in the command window. Alternatively, the user can open the GUI from the Editor window. For this, first the user will select the file MarineEpi.m file located in the working folder by clicking twice on the file. Once this file is selected in the Editor window the user wil open the GUI by clicking on the RUN button.
+Once Matlab is working in this folder the MarineEpi user interface will be opened by typing MarineEpi in the command window. Alternatively, the user can open the GUI from the Editor window. For this, first the user will select the file MarineEpi.m file located in the working folder by clicking twice on the file. Once this file is selected in the Editor window the user wil open the GUI by clicking on the RUN button.
 
 Features
 
