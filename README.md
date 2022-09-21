@@ -12,7 +12,7 @@ Installing the toolbox and opening the GUI
 
 The user needs to find in Matlab Add-ons the MarineEpi toolbox and add it to Matlab and open the created folder. The folder should have the following files: MarineEpi.m, MarineEpi.fig. 
 
-Alternatively, the user can also download the toolbox from this link:
+Alternatively, the user can download the toolbox from this link:
 
 [![View MarineEpi on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://es.mathworks.com/matlabcentral/fileexchange/87999-marineepi)
 
