@@ -1,7 +1,7 @@
 # MarineEpi
 
-MarineEpi modelling file is presented to the end user in the MarineEpi GUI.  The user can take advantage of all of the features of MarineEpi to model different host-pathogen systems, run different marine disease scenarios and obtain information about disease dynamics in output plots for S.
-Getting Started with MarineEpi
+MarineEpi modelling file is presented to the end user in the MarineEpi GUI.  The user can take advantage of all of the features of MarineEpi to model different host-pathogen systems, run different marine disease scenarios and obtain information about disease dynamics displaying plots for S, I, P, DI, prevalence of infection and mortality (see model variables decription below).
+
 
 Description
 
@@ -13,7 +13,7 @@ Installing the toolbox and opening the GUI
 [![View MarineEpi on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://es.mathworks.com/matlabcentral/fileexchange/87999-marineepi)
 
 
-The user needs to find in Matlab Add-ons the MarineEpi toolbox and add it into Matlab and open the folder. The folder should have the following files: MarineEpi.m, MarineEpi.fig. Once Matlab is working in this folder the MarineEpi user interface will be opened by typing MarineEpi in the command window. Alternatively, the user can open the GUI from the Editor window. For this, first the user will select the file MarineEpi.m file located in the working folder by clicking twice on the file. Once this file is selected in the Editor window the user wil open the GUI by clicking on the RUN button.
+The user needs to find in Matlab Add-ons the MarineEpi toolbox and add it to Matlab and open the created folder. The folder should have the following files: MarineEpi.m, MarineEpi.fig. Once Matlab is working in this folder the MarineEpi user interface will be opened by typing MarineEpi in the command window. Alternatively, the user can open the GUI from the Editor window. For this, first the user will select the file MarineEpi.m file located in the working folder by clicking twice on the file. Once this file is selected in the Editor window the user wil open the GUI by clicking on the RUN button.
 
 Features
 
