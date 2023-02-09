@@ -535,12 +535,13 @@ axes(handles.axes1)
 end
     plot(t,y(:,1),'k-',t,y(:,2),'b-','LineWidth',2)
 %xlabel('Time (days)')
+set(gca,'fontsize',12)
 ylabel('Individuals','Fontweight','demi', 'Fontsize',16)
 %title('Susceptable (S), Infected (I)')
 g=legend('S','I');
 set(g,'Box','off','Location','Northeast','Fontweight','demi')
 ylim([-1 y(1)])
-set(gca,'fontsize',12)
+
 %hold on
 if showy1==0
 
@@ -587,7 +588,6 @@ axes(handles.axes3)
 %tinny=0;
 tinny=0.001;
 prev=(y(:,2)+tinny)./(y(:,2)+y(:,1)+tinny).*100;
-%prev=(y(:,2)+tinny)./(ICvalue(1)+ICvalue(2)+tinny).*100;
 h=plot(t,prev,'-','LineWidth',2);
 %xlabel('t (days)')
 set(gca,'fontsize',12)
@@ -621,8 +621,8 @@ plot(t,infP,'b-.',t,infI,'b-',t,infD,'b--','LineWidth',2)
 set(gca,'fontsize',12)
 
 %xlabel('t (days)')
-ylabel('Individuals day^{-1}','Fontweight','demi', 'Fontsize',16)
-g=legend('IPinfect','Iinfect','Dinfect');
+ylabel('Individuals/day','Fontweight','demi', 'Fontsize',16)
+g=legend('InfP','InfI','InfD');
 set(g,'Box','off','Location','Northeast','Fontweight','demi')
 limsy=get(gca,'YLim');
 set(gca,'Ylim',[-0.01 limsy(2)]);
@@ -681,13 +681,10 @@ axes(handles.axes9)
 % plot(t,cummort,'r','LineWidth',2)
 %tinny=0;
 tinny=0.001;
-%prev=(y(:,2)+tinny)./(y(:,2)+y(:,1)+tinny).*100;
-%cummort=prev*ICvalue(8);
-%cummort2=cumsum(y(:,3));
-%mortal2=(y(:,3)+ICvalue(10)*y(:,2)+tinny)./(y(:,1)+y(:,2)+y(:,3)+ICvalue(10)*y(:,3)+tinny).*100;
-%mortal3=(y(:,3)+ICvalue(10)*y(:,3)+tinny)./(ICvalue(1)+ICvalue(2)+tinny).*100;
-mortal5=(y(:,3)+tinny)./(y(:,1)+y(:,2)+y(:,3)+tinny).*100;
-plot(t,mortal5,'r-','LineWidth',2)
+prev=(y(:,2)+tinny)./(y(:,2)+y(:,1)+tinny).*100;
+cummort=prev*ICvalue(8);
+
+plot(t,cummort,'r','LineWidth',2)
 set(gca,'fontsize',12)
 
 
